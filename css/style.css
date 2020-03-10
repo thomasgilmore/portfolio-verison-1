@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400i&display=swap');
+
+body {
+  background-color: #C1C8E4;
+}
+
+h1 {
+  color: white;
+  font-family: 'IM Fell French Canon', serif;
+  font-size: 75px;
+  margin: 25px auto 15px auto;
+  text-align: center;
+  /* text-decoration: underline; */
+  /* text-shadow: 2px 2px #949494; */
+}
+
+nav {
+  margin: auto;
+  width: 90%;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  background-color: #8860D0;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+  margin: 0 50px 0 0;
+  padding: 7px 12px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #C1C8E4;
+}
+
+main {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 90%;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+  
+h2 {
+  color: #8860D0;
+  font-family: 'IM Fell French Canon', serif;
+  font-size: 45px;
+  text-align: center;
+  /* text-shadow: 2px 2px #949494; */
+}
+
+img {
+  border: 5px solid #8860D0;
+  border-radius: 25px; 
+  margin: auto;
+  width: 500px;
+}
+
+img:hover {
+  border: 6px solid #C1C8E4;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 50px;
+  width: 90%;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 25px; 
+  margin-top: 25px;
+  padding: 15px 2px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+h4 {
+  color: #8860D0;
+  font-family: 'IM Fell French Canon', serif;
+  margin: 7px 25px 7px 20px;
+  /* text-shadow: 1px 1px #949494; */
+}
+
+#skills, 
+#projects {
+  background-color: #8860D0;
+  border-radius: 25px; 
+  color: white;
+  margin: 6px 0;
+  text-shadow: none;
+  width: 95%;
+}
+
+.skills {
+  list-style: square;
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+  margin: 0;
+}
+
+.skills > li {
+  margin: 7px 45px;
+  font-size: 25px;
+}
+
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 768px) {
+  main {
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+  }
+
+  img {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+}
