@@ -75,9 +75,19 @@ img:hover {
 footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin: auto;
   padding-top: 50px;
   width: 90%;
+}
+
+footer > h4 a {
+  color: #8860D0;
+  text-decoration: none;
+}
+
+.icon-github {
+  margin-right: 20px;
 }
 
 .card {
