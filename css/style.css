@@ -58,18 +58,19 @@ h2 {
   text-align: center;
 }
 
-img {
+#projectImg {
   border: 5px solid #8860D0;
   border-radius: 25px; 
   margin: auto;
   width: 500px;
 }
 
-img:hover {
+#projectImg:hover {
   border: 6px solid #C1C8E4;
 }
 
 footer {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -83,8 +84,16 @@ footer > h4 a {
   text-decoration: none;
 }
 
-.icon-github {
+/* .icon-github {
   margin-right: 20px;
+} */
+
+#githubIcon {
+  align-items: center;
+  height: 35px;
+  justify-content: center;
+  margin: 0 20px 0 0;
+  width: 35px;
 }
 
 .card {
@@ -103,7 +112,7 @@ footer > h4 a {
 h4 {
   color: #8860D0;
   font-family: 'IM Fell French Canon', serif;
-  margin: 7px 25px 7px 20px;
+  margin: 0 25px 0 20px;
 }
 
 #skills, 
@@ -138,7 +147,7 @@ h4 {
     flex-wrap: wrap;
   }
 
-  img {
+  #projectImg {
     margin-left: 15px;
     margin-right: 15px;
   }
