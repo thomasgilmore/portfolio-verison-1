@@ -10,8 +10,6 @@ h1 {
   font-size: 75px;
   margin: 25px auto 15px auto;
   text-align: center;
-  /* text-decoration: underline; */
-  /* text-shadow: 2px 2px #949494; */
 }
 
 nav {
@@ -58,7 +56,6 @@ h2 {
   font-family: 'IM Fell French Canon', serif;
   font-size: 45px;
   text-align: center;
-  /* text-shadow: 2px 2px #949494; */
 }
 
 img {
@@ -107,7 +104,6 @@ h4 {
   color: #8860D0;
   font-family: 'IM Fell French Canon', serif;
   margin: 7px 25px 7px 20px;
-  /* text-shadow: 1px 1px #949494; */
 }
 
 #skills, 
@@ -139,7 +135,6 @@ h4 {
 
 @media (min-width: 768px) {
   main {
-    /* flex-direction: row; */
     flex-wrap: wrap;
   }
 
