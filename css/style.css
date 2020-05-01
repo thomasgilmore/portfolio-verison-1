@@ -125,21 +125,19 @@ h4 {
   width: 95%;
 }
 
-.skills {
-  list-style: square;
-  columns: 4;
-  -webkit-columns: 4;
-  -moz-columns: 4;
-  margin: 0;
-}
-
-.skills > li {
-  margin: 7px 45px;
-  font-size: 25px;
-}
-
 @media (min-width: 320px) {
-
+  .skills {
+    list-style: square;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    margin: 0;
+  }
+  
+  .skills > li {
+    margin: 7px 45px;
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -150,6 +148,18 @@ h4 {
   #projectImg {
     margin-left: 15px;
     margin-right: 15px;
+  }
+  .skills {
+    list-style: square;
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    margin: 0;
+  }
+  
+  .skills > li {
+    margin: 7px 45px;
+    font-size: 25px;
   }
 }
 
