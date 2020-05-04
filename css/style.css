@@ -82,6 +82,7 @@ footer {
 footer > h4 a {
   color: #8860D0;
   text-decoration: none;
+  font-size: 20px;
 }
 
 /* .icon-github {
@@ -141,6 +142,15 @@ h4 {
   #projectImg {
     width: 300px;
   }
+  nav ul li a {
+    /* background-color: #8860D0;
+    border-radius: 25px;
+    color: white;*/
+    font-size: 20px;
+    margin: 0 20px 0 0;
+    /* padding: 7px 12px;
+    text-decoration: none; */
+  }
 }
 
 @media (min-width: 768px) {
@@ -164,6 +174,15 @@ h4 {
   .skills > li {
     margin: 7px 45px;
     font-size: 25px;
+  }
+  nav ul li a {
+    /* background-color: #8860D0;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px; */
+    margin: 0 50px 0 0;
+    /* padding: 7px 12px;
+    text-decoration: none; */
   }
 }
 
